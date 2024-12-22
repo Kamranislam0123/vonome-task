@@ -24,7 +24,7 @@ export function BottomToolbar() {
         </div>
         <div className="flex items-center justify-center gap-2">
           <span className="font-medium text-base text-gray-600">Total</span>
-          <span className="text-2xl font-medium">600.00</span>
+          <span className="text-2xl font-medium">660.00</span>
         </div>
         <div className="flex items-center gap-4">
           <button className="rounded-md bg-slate-600 border px-6 py-4 ">
