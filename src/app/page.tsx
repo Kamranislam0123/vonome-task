@@ -15,7 +15,7 @@ export default function Home() {
               {/* Left Side - Products */}
               <div className="flex flex-1 flex-col border-r w-1/2">
                 {/* Search - Sticky */}
-                <div className="sticky top-0 z-10 border-b bg-white p-4">
+                <div className="sticky top-0  border-b bg-white p-4">
                   <div className="relative">
                     <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
                     <input
@@ -27,7 +27,7 @@ export default function Home() {
                 </div>
 
                 {/* Categories - Sticky */}
-                <div className="sticky top-[73px] z-10 border-b bg-white">
+                <div className="sticky top-[73px]  border-b bg-white">
                   <div className="flex items-center gap-2 p-4">
                     <button className="rounded-md px-4 py-1.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
                       Total Medicine (250)
@@ -51,7 +51,7 @@ export default function Home() {
               {/* Right Side - Order Details */}
               <div className="flex flex-1 flex-col w-1/2">
                 {/* Customer Selection - Sticky */}
-                <div className="sticky top-0 z-10 flex items-center justify-between border-b bg-white p-4">
+                <div className="sticky top-0  flex items-center justify-between border-b bg-white p-4">
                   <div className="relative">
                     <User className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-600" />
                     <select className="pl-10 pr-4 rounded-md border px-4 py-2 text-sm font-medium text-gray-600">
@@ -66,7 +66,7 @@ export default function Home() {
                 </div>
 
                 {/* Barcode Scanner - Sticky */}
-                <div className="sticky top-[65px] z-10 border-b bg-white p-4">
+                <div className="sticky top-[65px]  border-b bg-white p-4">
                   <div className="relative">
                     <QrCode className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
                     <input

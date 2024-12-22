@@ -15,7 +15,7 @@ export function OrderTable() {
     <div className="flex h-full flex-col overflow-hidden">
       <div className="flex-1 overflow-y-auto">
         <table className="w-full border-collapse border border-gray-200">
-          <thead className="sticky top-0 z-10 bg-white shadow-sm">
+          <thead className="sticky top-0  bg-white shadow-sm">
             <tr className="border-b border-gray-200 text-sm">
               <th className="whitespace-nowrap border border-gray-200 px-4 py-3 text-left font-medium text-gray-600">
                 Item
